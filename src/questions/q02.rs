@@ -1,7 +1,9 @@
+extern crate eval;
 use eval::eval;
 
 pub fn q02(){
-    let ops = vec!["+", "-", "*", "/", ""];
+    let ops = vec![ "*", ""]; // 高速化版：+-/を使うと4桁の整数にならない
+    //let ops = vec!["+", "-", "*", "/", ""];
     for i in 1000..=10000 {
         let c = i.to_string();
         for op1  in ops.iter(){
