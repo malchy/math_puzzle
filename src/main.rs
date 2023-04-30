@@ -1,7 +1,7 @@
 mod questions;
 
 fn main() {
-    let question_no = 4;
+    let question_no = 6;
 
     match question_no{
         1 => questions::q01::q01(),
@@ -19,6 +19,7 @@ fn main() {
             questions::q05::q05_2();
             questions::q05::q05_3();
         },
+        6 => questions::q06::q06(),
         _ => println!("undefined question"),
     }
 
