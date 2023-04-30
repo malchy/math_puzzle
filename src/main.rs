@@ -6,5 +6,9 @@ fn main() {
     //questions::q03::q03_1();
     //questions::q03::q03_2();
     //questions::q04::q04_1();
-    questions::q04::q04_2();
+    //questions::q04::q04_2();
+    questions::q05::q05_1();
+    questions::q05::q05_2();
+    questions::q05::q05_3();
+
 }
