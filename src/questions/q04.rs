@@ -18,7 +18,7 @@ pub fn q04_1(){
     println!("{}", result2);
 }
 
-fn cutbar2(m:i32, n:i32, current:i32) -> i32{
+fn cutbar2(m:i32, n:i32) -> i32{
     let mut count = 0;
     let mut current = 1;
     while n > current {
@@ -33,8 +33,8 @@ fn cutbar2(m:i32, n:i32, current:i32) -> i32{
 }
 
 pub fn q04_2(){
-    let result = cutbar2(3, 20, 1);
+    let result = cutbar2(3, 20);
     println!("{}", result);
-    let result2 = cutbar2(5, 100, 1);
+    let result2 = cutbar2(5, 100);
     println!("{}", result2);
 }

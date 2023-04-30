@@ -1,4 +1,7 @@
-// 実行する問題のファイルのみ宣言
+pub mod q01;
+pub mod q02;
+pub mod q03;
+pub mod q04;
 pub mod q05;
 
 

@@ -18,7 +18,7 @@ pub fn q02(){
                                     println!("answer: {}", valuation);
                                 }
                             },
-                            Err(x) => continue, // 計算式が成り立たない場合 (0徐算など)
+                            Err(_x) => continue, // 計算式が成り立たない場合 (0徐算など)
                         }
                     }
                 }

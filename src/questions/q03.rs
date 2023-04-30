@@ -1,6 +1,6 @@
 
 
-pub fn q03(){
+pub fn q03_1(){
     const N:usize = 100;  // size
     let mut cards : [bool;N] = [false;N];
     for i in 2..=N{
